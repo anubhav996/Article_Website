@@ -1,24 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&family=Raleway:wght@300&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
- width: 100vw;   
- height: 100vh;
- background: url("MBg.jpg") no-repeat;
- background-size: 100vw 100vh;
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url("MBg.jpg") no-repeat;
+    background-size: 100vw 100vh;
 }
+
 /* ------------NavBar--------------- */
-header{
+header {
     width: 100vw;
     height: 6vh;
     background-color: rgba(0, 0, 0, 0.461);
 }
 
-.navi{
+.navi {
     width: 100vw;
     height: 6vh;
     display: flex;
@@ -28,7 +29,7 @@ header{
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
     font-size: 1.2em;
@@ -38,27 +39,79 @@ a{
     transition: color 0.4s linear;
 }
 
-/* a:hover{
-    color: rgb(231, 176, 176);
-} */
 
-.Search_bar{
+.Search_bar {
     width: 15vw;
     height: 3.5vh;
     border: 0px solid;
     border-radius: 4px;
-    text-align:right ;
+    text-align: right;
     padding-right: 14px;
     font-size: 1em;
     font-weight: bolder;
     background-color: rgba(255, 255, 255, 0.459);
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
 
+.search_container {
+    margin: 0;
+    padding: 0;
+    width: 166px;
+    height: 18px;
+}
+
+.search_li{
+    background-color: white;
+    width: 118px;
+    text-align: end;
+    padding-right: 25px;
+    list-style: none;
+}
+
+.searcha{
+    color: black;
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+background-position: 10px 12px;
+background-repeat: no-repeat;
+width: 100%;
+font-size: 16px;
+padding: 2px 0px 4px 40px;
+border: 1px solid #ddd;
+margin-bottom: 15px;
+border-radius: 3px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: sticky;
+    top: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -15px;
+    background-color: #f6f6f6;
+    padding: 7px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    width: 192px;
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
 /* --------------Main Container--------------------- */
-.main_container{
+.main_container {
     width: 100vw;
     height: 94vh;
     background-color: rgba(0, 0, 0, 0);
@@ -67,20 +120,22 @@ input:focus{
     align-items: center;
 }
 
-.container{
+.container {
     width: 80vw;
     height: 80vh;
     background-color: rgba(0, 0, 0, 0.084);
     border-radius: 10px;
 }
-.welcome{
+
+.welcome {
     width: 80vw;
     height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.wel{
+
+.wel {
     font-size: 92px;
     color: rgba(255, 255, 255, 0.689);
 }
