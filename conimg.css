@@ -1,0 +1,37 @@
+.allCon {
+    width: 400px;
+    height: 260px;
+}
+
+.ari_one {
+    width: 400px;
+    height: 230px;
+    background: url("/img/climate.jpg") no-repeat;
+    background-size: auto;
+    background-size: 400px 230px;
+    text-align: center;
+    display: inline-block;
+}
+
+.allgridcon {
+    width: 80vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headUrl {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    transition: color 0.4s linear;
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+}
