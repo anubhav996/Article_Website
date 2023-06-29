@@ -13,6 +13,15 @@
     display: inline-block;
 }
 
+.ari_two {
+    width: 400px;
+    height: 230px;
+    background: url("/img/earth.jpg") no-repeat;
+    background-size: auto;
+    background-size: 400px 230px;
+    text-align: center;
+    display: inline-block;
+}
 .allgridcon {
     width: 80vw;
     height: 70vh;

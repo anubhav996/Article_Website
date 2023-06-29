@@ -1,0 +1,25 @@
+.clheading{
+    width: 80vw;
+    height: 10vh;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+}
+.clpara{
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    font-size: 40px;
+    background: url("/img/MBg.jpg") no-repeat;
+    background-size: 80vw 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    width: 100vw;
+height: 100vh;
+background: url("/img/MBg.jpg") no-repeat;
+  background-size: auto;
+background-size: 100vw 103vh;
+}
